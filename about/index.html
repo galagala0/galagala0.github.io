@@ -425,20 +425,7 @@
 <script>
 bot_ui_ini()
 </script>
-<script type="text/javascript">//樱花
-   var system ={};
-   var p = navigator.platform;
-   system.win = p.indexOf("Win") == 0;
-   system.mac = p.indexOf("Mac") == 0;
-   system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-   if(system.win||system.mac||system.xll){//如果是电脑
 
-   $.getScript("https://cdn.jsdelivr.net/gh/galagala0/cdn@1.2.5/js/yinghua.js");
-   }else{ //如果是手机
-       $.getScript("https://cdn.jsdelivr.net/gh/galagala0/cdn@1.2.5/js/yinghua.js");
-
-   }
-   </script>
 
       <!-- .entry-content -->
       
@@ -883,5 +870,6 @@ $(document).ready(function() {
     })
   });
 </script>
+  <script type="text/javascript" src="/yinghua.js"></script>
 </body>
 </html>
