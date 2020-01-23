@@ -111,45 +111,45 @@ function bot_ui_ini() {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                    	content: "请仔细看看我的博客吧？ ^_^"
-                        // text: "为什么是白猫呢？ 🤔",
-                        // value: "why-cat"
+                    	// content: "请仔细看看我的博客吧？ ^_^"
+                        text: "为什么还有选项呢呢？ 🤔",
+                        value: "why-cat"
                     }]
                 }).then(function (a) {
                     fourthpart()
                 })
             })
         }.
-        // fourthpart = function () {
-        //     botui.message.add({
-        //         delay: 1E3,
-        //         content: "因为对GitHub有种执念… "
-        //     }).then(function () {
-        //         botui.message.add({
-        //             delay: 1100,
-        //             content: "而且我真的是猫控！"
-        //         }).then(function () {
-        //             botui.action.button({
-        //                 delay: 1500,
-        //                 action: [{
-        //                     text: "域名有什么含意吗？(ง •_•)ง",
-        //                     value: "why-domain"
-        //                 }]
-        //             }).then(function (a) {
-        //                 fifthpart()
-        //             })
-        //         })
-        //     })
-        // },
-        // fifthpart = function () {
-        //     botui.message.add({
-        //         delay: 1E3,
-        //         content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
-        //     }).then(function () {
-        //         botui.message.add({
-        //             delay: 1600,
-        //             content: "那么，仔细看看我的博客吧？ ^_^"
-        //         })
-        //     })
-        // } 
+        fourthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "因为对GitHub有种执念… "
+            }).then(function () {
+                botui.message.add({
+                    delay: 1100,
+                    content: "我现在是真的不会改！"
+                }).then(function () {
+                    botui.action.button({
+                        delay: 1500,
+                        action: [{
+                            text: "域名有什么含意吗？(ง •_•)ง",
+                            value: "why-domain"
+                        }]
+                    }).then(function (a) {
+                        fifthpart()
+                    })
+                })
+            })
+        },
+        fifthpart = function () {
+            botui.message.add({
+                delay: 1E3,
+                content: "放过我吧 我还不太会玩"
+            }).then(function () {
+                botui.message.add({
+                    delay: 1600,
+                    content: "那么，仔细看看我的博客吧？ ^_^"
+                })
+            })
+        } 
 }
