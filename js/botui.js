@@ -26,11 +26,11 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 galagala"
+            content: "这里是 SQRock"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的蓝孩子~"
+                content: "一个自闭的蓝孩子~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,32 +65,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于中原工学院信息商务学院"
+                content: "目前就读于ZCIB"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "大二学渣一枚"
+                    content: "喜欢算法,喜欢熬夜"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "目前主要学习算法知识（不过脑子不太好使）"
+                        content: "平时太闲也会LOL（偶偶尔）"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "下学期课程似乎不太多，但觉得不会太轻松"
+                            content: "目前是一名JBer,快要退役了。主攻java和算法"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "对于以后要干什么，还没有想好，毕竟还什么都不会"
+                                content: "搭这个博客记录下平时生活和日常刷题，希望大家一起进步"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "目前单纯喜欢计算机"
+                                    content: "希望最后一年能打进区域赛"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫galagala呢？ 🤔",
+                                            text: "为什么叫SQRock呢？ 🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -106,28 +106,27 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "galagala来自于宠物小精灵里的嘎啦嘎啦，因为觉得挺好玩的，就一直用送到现在"
+                content: "SQ就是我名字啦，姓石就Rock喽"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                    	// content: "请仔细看看我的博客吧？ ^_^"
-                        text: "为什么还有选项呢呢？ 🤔",
+                        text: "头像是谁？ 🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
                     fourthpart()
                 })
             })
-        }.
+        },
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为对GitHub有种执念… "
+                content: "詹姆斯！"
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "我现在是真的不会改！"
+                    content: "胖胖的撅着肚子,哈哈哈"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -144,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "放过我吧 我还不太会玩"
+                content: "emmmm，名字用九键打就是747826啦，我在很多地方用的都是shi747826，嘻嘻"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
