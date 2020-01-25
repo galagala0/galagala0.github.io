@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-01-25T09:27:06.811Z</updated>
+  <updated>2020-01-25T09:53:39.284Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -21,21 +21,20 @@
     <link href="https://galagala0.github.io/2020/01/25/text/"/>
     <id>https://galagala0.github.io/2020/01/25/text/</id>
     <published>2020-01-25T09:12:16.409Z</published>
-    <updated>2020-01-25T09:27:06.811Z</updated>
+    <updated>2020-01-25T09:53:39.284Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;这是我的第一次测试~&lt;a href=&quot;https://galagala0.github.io/&quot;&gt;超链接&lt;/a&gt;嘿嘿.&lt;/p&gt;
-&lt;h2 id=&quot;这大概是一个二级标题吧&quot;&gt;&lt;a href=&quot;#这大概是一个二级标题吧&quot; class=&quot;headerlink&quot;
-        
-      
+      对内容的一段描述
     
     </summary>
     
+      <category term="归档" scheme="https://galagala0.github.io/categories/%E5%BD%92%E6%A1%A3/"/>
+    
+    
+      <category term="text1" scheme="https://galagala0.github.io/tags/text1/"/>
+    
+      <category term="text2" scheme="https://galagala0.github.io/tags/text2/"/>
     
   </entry>
   
