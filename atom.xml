@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-01-17T08:25:11.824Z</updated>
+  <updated>2020-01-25T09:27:06.811Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
+    <title>text测试</title>
+    <link href="https://galagala0.github.io/2020/01/25/text/"/>
+    <id>https://galagala0.github.io/2020/01/25/text/</id>
+    <published>2020-01-25T09:12:16.409Z</published>
+    <updated>2020-01-25T09:27:06.811Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这是我的第一次测试~&lt;a href=&quot;https://galagala0.github.io/&quot;&gt;超链接&lt;/a&gt;嘿嘿.&lt;/p&gt;
+&lt;h2 id=&quot;这大概是一个二级标题吧&quot;&gt;&lt;a href=&quot;#这大概是一个二级标题吧&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="https://galagala0.github.io/2020/01/17/hello-world/"/>
     <id>https://galagala0.github.io/2020/01/17/hello-world/</id>
     <published>2020-01-17T08:01:48.694Z</published>
-    <updated>2020-01-17T08:25:11.824Z</updated>
+    <updated>2020-01-25T09:27:09.369Z</updated>
     
     <summary type="html">
     
@@ -29,7 +52,9 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;!-- 标题 --&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;title-Hello-World&quot;&gt;&lt;a href=&quot;#title-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;title: Hello World&quot;&gt;&lt;/a&gt;title: Hello
         
       
     
@@ -40,294 +65,8 @@
   
   <entry>
     <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(11)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (11)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(10)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (10)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(12)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (12)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(13)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (13)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(14)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (14)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(16)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (16)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(15)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (15)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (2)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (4)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (3)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (6)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(8)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (8)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (5)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(7)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (7)/</id>
+    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本/</id>
     <published>2018-12-12T14:16:01.000Z</published>
     <updated>2019-11-16T09:29:49.000Z</updated>
     
@@ -350,50 +89,6 @@
     <title>Hexo-Theme-Sakura</title>
     <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/"/>
     <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC%20(9)/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本 (9)/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
-    
-    <summary type="html">
-    
-      hexo-sakura主题使用教程
-    
-    </summary>
-    
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="web" scheme="https://galagala0.github.io/tags/web/"/>
-    
-      <category term="悦读" scheme="https://galagala0.github.io/tags/%E6%82%A6%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-Theme-Sakura</title>
-    <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura - 副本/</id>
     <published>2018-12-12T14:16:01.000Z</published>
     <updated>2019-11-16T09:29:49.000Z</updated>
     
