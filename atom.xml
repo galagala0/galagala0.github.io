@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-01-25T10:09:39.338Z</updated>
+  <updated>2020-01-26T09:27:15.601Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://galagala0.github.io/2020/01/25/text/"/>
     <id>https://galagala0.github.io/2020/01/25/text/</id>
     <published>2020-01-25T09:12:16.409Z</published>
-    <updated>2020-01-25T10:09:39.338Z</updated>
+    <updated>2020-01-26T09:27:15.601Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
     
     </summary>
     
-      <category term="归档" scheme="https://galagala0.github.io/categories/%E5%BD%92%E6%A1%A3/"/>
+      <category term="生活" scheme="https://galagala0.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
       <category term="text1" scheme="https://galagala0.github.io/tags/text1/"/>
@@ -39,26 +39,24 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Hello world!</title>
     <link href="https://galagala0.github.io/2020/01/17/hello-world/"/>
     <id>https://galagala0.github.io/2020/01/17/hello-world/</id>
     <published>2020-01-17T08:01:48.694Z</published>
-    <updated>2020-01-25T09:27:09.369Z</updated>
+    <updated>2020-01-26T11:49:02.751Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;!-- 标题 --&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;title-Hello-World&quot;&gt;&lt;a href=&quot;#title-Hello-World&quot; class=&quot;headerlink&quot; title=&quot;title: Hello World&quot;&gt;&lt;/a&gt;title: Hello
-        
-      
+      对内容的一段描述
     
     </summary>
     
+      <category term="随想" scheme="https://galagala0.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+      <category term="text1" scheme="https://galagala0.github.io/tags/text1/"/>
+    
+      <category term="text2" scheme="https://galagala0.github.io/tags/text2/"/>
     
   </entry>
   
@@ -67,7 +65,7 @@
     <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/"/>
     <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/</id>
     <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2019-11-16T09:29:49.000Z</updated>
+    <updated>2020-01-26T11:43:03.110Z</updated>
     
     <summary type="html">
     
@@ -75,7 +73,7 @@
     
     </summary>
     
-      <category term="技术" scheme="https://galagala0.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="算法" scheme="https://galagala0.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
       <category term="web" scheme="https://galagala0.github.io/tags/web/"/>

@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "galagala来自于宠物小精灵里的嘎啦嘎啦，因为觉得挺好玩的，就一直用送到现在"
+                content: "galagala来自于宠物小精灵里的嘎啦嘎啦，因为觉得挺好玩的，就一直用到现在"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是嘎啦嘎啦呢？ 🤔",
+                        text: "为什么是galagala呢？ 🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -143,11 +143,11 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "就是QQ啦"
+                content: "就是姓氏的开头字母和QQ啦"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
-                    content: "那么，仔细看看我的博客吧？ ^_^"
+                    content: "请仔细看看我的博客吧？希望能够对你有所帮助 ^_^"
                 })
             })
         } 
