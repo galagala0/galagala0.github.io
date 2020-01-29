@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-01-28T11:57:14.664Z</updated>
+  <updated>2020-01-29T13:48:02.460Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>终于完成</title>
+    <link href="https://galagala0.github.io/2020/01/29/start/"/>
+    <id>https://galagala0.github.io/2020/01/29/start/</id>
+    <published>2020-01-29T12:29:29.000Z</published>
+    <updated>2020-01-29T13:48:02.460Z</updated>
+    
+    <summary type="html">
+    
+      经过断断续续的搭建，个人博客终于算是搞定了。嘿嘿
+    
+    </summary>
+    
+      <category term="随想" scheme="https://galagala0.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>text测试</title>
     <link href="https://galagala0.github.io/2020/01/25/text/"/>
     <id>https://galagala0.github.io/2020/01/25/text/</id>
     <published>2020-01-25T09:12:16.409Z</published>
-    <updated>2020-01-28T11:57:14.664Z</updated>
+    <updated>2020-01-29T13:48:57.254Z</updated>
     
     <summary type="html">
     
@@ -39,33 +57,11 @@
   </entry>
   
   <entry>
-    <title>Hello world!</title>
-    <link href="https://galagala0.github.io/2020/01/17/hello-world/"/>
-    <id>https://galagala0.github.io/2020/01/17/hello-world/</id>
-    <published>2020-01-17T08:01:48.694Z</published>
-    <updated>2020-01-26T11:49:02.751Z</updated>
-    
-    <summary type="html">
-    
-      对内容的一段描述
-    
-    </summary>
-    
-      <category term="随想" scheme="https://galagala0.github.io/categories/%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="text1" scheme="https://galagala0.github.io/tags/text1/"/>
-    
-      <category term="text2" scheme="https://galagala0.github.io/tags/text2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo-Theme-Sakura</title>
     <link href="https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/"/>
     <id>https://galagala0.github.io/2018/12/12/Hexo-Theme-Sakura/</id>
     <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2020-01-26T11:43:03.110Z</updated>
+    <updated>2020-01-29T13:50:57.094Z</updated>
     
     <summary type="html">
     
