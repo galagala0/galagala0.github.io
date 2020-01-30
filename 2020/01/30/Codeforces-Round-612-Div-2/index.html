@@ -359,7 +359,7 @@
           <p>颓了这么久  本来就不会什么 这下真的啥也不会了<br>废话就不多说了 难顶</p>
 <h2 id="B题"><a href="#B题" class="headerlink" title="B题"></a>B题</h2><p>题目连接：<a href="https://codeforces.com/contest/1287/problem/B" target="_blank" rel="noopener">https://codeforces.com/contest/1287/problem/B</a></p>
 <h3 id="题目大意："><a href="#题目大意：" class="headerlink" title="题目大意："></a>题目大意：</h3><p>​        给定多个字符串，找出三个字符串为一组满足每列均相同或均不相同，输出能够找到的组数。</p>
-<h3 id="输入输出样例："><a href="#输入输出样例：" class="headerlink" title="输入输出样例："></a>输入输出样例：</h3><p><img src="/.io//1.5.1.jpg" alt></p>
+<h3 id="输入输出样例："><a href="#输入输出样例：" class="headerlink" title="输入输出样例："></a>输入输出样例：</h3><p><img src="//galagala0.github.io/2020/01/30/Codeforces-Round-612-Div-2/1.5.1.jpg" alt></p>
 <h3 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h3><p>​        定义map&lt;string,int&gt;统计重复出现的字符串。选择两个字符串筛选符合的第三串，此方法会将同一组重复三次，故答案除以三。</p>
 <h3 id="代码："><a href="#代码：" class="headerlink" title="代码："></a>代码：</h3><pre><code class="c++">#include&lt;bits/stdc++.h&gt;//1.5 B
 using namespace std;
@@ -395,7 +395,7 @@ return 0;
 </code></pre>
 <h2 id="C题"><a href="#C题" class="headerlink" title="C题"></a>C题</h2><p>题目连接：<a href="https://codeforces.com/contest/1287/problem/C" target="_blank" rel="noopener">https://codeforces.com/contest/1287/problem/C</a></p>
 <h3 id="题目大意：-1"><a href="#题目大意：-1" class="headerlink" title="题目大意："></a>题目大意：</h3><p>​        从1-n一共n个数字，奇偶性不同的两个数相邻则复杂度+1，给定一些排好的数，将剩余数字排列其中同时使得复杂度最小。</p>
-<h3 id="输入输出样例：-1"><a href="#输入输出样例：-1" class="headerlink" title="输入输出样例："></a>输入输出样例：</h3><p><img src="/.io//1.5.2.jpg" alt></p>
+<h3 id="输入输出样例：-1"><a href="#输入输出样例：-1" class="headerlink" title="输入输出样例："></a>输入输出样例：</h3><p><img src="//galagala0.github.io/2020/01/30/Codeforces-Round-612-Div-2/1.5.2.jpg" alt></p>
 <h3 id="思路：-1"><a href="#思路：-1" class="headerlink" title="思路："></a>思路：</h3><p>​        简单dp，先分别计算出剩余的奇数、偶数个数，进行dp</p>
 <p>​        dp数组：dp [x] [j] [o] [k] 分别为当前位置，奇数剩余个数，偶数剩余个数，上一位置奇偶性</p>
 <h3 id="代码：-1"><a href="#代码：-1" class="headerlink" title="代码："></a>代码：</h3><pre><code class="c++">#include&lt;bits/stdc++.h&gt;
