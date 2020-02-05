@@ -512,6 +512,39 @@ int main(){
 }
 </code></pre>
 <hr>
+<h2 id="I：DP"><a href="#I：DP" class="headerlink" title="I：DP"></a>I：DP</h2><h3 id="题目链接：-3"><a href="#题目链接：-3" class="headerlink" title="题目链接："></a>题目链接：</h3><p><a href="https://ac.nowcoder.com/acm/contest/3002/I" target="_blank" rel="noopener">https://ac.nowcoder.com/acm/contest/3002/I</a></p>
+<h3 id="题目描述：-2"><a href="#题目描述：-2" class="headerlink" title="题目描述："></a>题目描述：</h3><p> nico平时最喜欢说的口头禅是niconiconi~。<br> 有一天nico在逛著名弹幕网站”niconico”的时候惊异的发现，n站上居然有很多她的鬼畜视频。其中有一个名为《让nico为你洗脑》的视频吸引了她的注意。<br> 她点进去一看，就被洗脑了:”niconicoh0niconico<em>^vvniconicoG(vniconiconiconiconiconicoG(vniconico……”<br> 弹幕中刚开始有很多“nico</em>1  nico*2”等计数菌，但到后面基本上都是“计数菌阵亡”的弹幕了。<br> nico也想当一回计数菌。她认为：”nico” 计<strong>a</strong> 分，”niconi” 计<strong>b</strong> 分，”niconiconi” 计<strong>c</strong> 分。<br> 她拿到了一个长度为<strong>n</strong> 的字符串，请帮她算出最大计数分数。<br> 注：已被计数过的字符不能重复计数！如”niconico”要么当作”nico”+”nico”计<strong>2a</strong>分，要么当作”niconi”+”co”计 <strong>b</strong>分。</p>
+<h3 id="输入描述-4"><a href="#输入描述-4" class="headerlink" title="输入描述:"></a>输入描述:</h3><p>第一行四个正整数<strong>n</strong>,<strong>a</strong>,<strong>b</strong>,<strong>c</strong>, 。(1&lt;=n&lt;=300000,1&lt;=a,b,c&lt;=10^9)<br>第二行是一个长度为<strong>n</strong>的字符串。</p>
+<h3 id="输出描述-4"><a href="#输出描述-4" class="headerlink" title="输出描述:"></a>输出描述:</h3><p>一个整数，代表最大的计数分数。</p>
+<h3 id="输入-1"><a href="#输入-1" class="headerlink" title="输入:"></a>输入:</h3><p>19 1 2 5<br>niconiconiconiconi~</p>
+<h3 id="输出-1"><a href="#输出-1" class="headerlink" title="输出:"></a>输出:</h3><p>7</p>
+<h3 id="说明-1"><a href="#说明-1" class="headerlink" title="说明:"></a>说明:</h3><p>“niconi”co”niconiconi”~<br>故为2+5=7分</p>
+<h3 id="思路：-4"><a href="#思路：-4" class="headerlink" title="思路："></a>思路：</h3><p>做题的时候完全被A和H给搞晕了，现在看看感觉就是个简单的dp？我以后做题的时候再也不听歌了（尽量）<br>直接看代码吧，动态转移方程也不是很难。</p>
+<h3 id="代码：-4"><a href="#代码：-4" class="headerlink" title="代码："></a>代码：</h3><pre><code class="c++">#include&lt;bits/stdc++.h&gt;
+using namespace std;
+typedef long long ll;
+const int INF = 0x3f3f3f3f;
+#define me(a,b) memset(a,b,sizeof(a))
+const int Max = 300010;
+ll dp[Max];
+int n,a,b,c;
+int main(){
+    cin&gt;&gt;n&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    string s;
+    cin&gt;&gt;s;
+    me(dp,0);
+    for(int i=1;i&lt;n;i++)
+    {
+        dp[i]=dp[i-1];
+        if(i&gt;=3&amp;&amp;s.substr(i-3,4)==&quot;nico&quot;) dp[i]=max(dp[i],dp[i-3]+a);
+        if(i&gt;=5&amp;&amp;s.substr(i-5,6)==&quot;niconi&quot;) dp[i]=max(dp[i],dp[i-5]+b);
+        if(i&gt;=9&amp;&amp;s.substr(i-9,10)==&quot;niconiconi&quot;) dp[i]=max(dp[i],dp[i-9]+c);
+    }
+    cout&lt;&lt;dp[n-1]&lt;&lt;endl;
+return 0;
+}
+</code></pre>
+<hr>
 
         </div>
         <!-- .entry-content -->
