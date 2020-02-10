@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-02-10T10:35:37.828Z</updated>
+  <updated>2020-02-10T14:19:07.896Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>按位与、或、非、异总结</title>
+    <link href="https://galagala0.github.io/2020/02/10/yuhuofei/"/>
+    <id>https://galagala0.github.io/2020/02/10/yuhuofei/</id>
+    <published>2020-02-10T14:05:53.000Z</published>
+    <updated>2020-02-10T14:19:07.896Z</updated>
+    
+    <summary type="html">
+    
+      描述
+    
+    </summary>
+    
+      <category term="算法" scheme="https://galagala0.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>618（Div.2）Codeforces Round</title>
