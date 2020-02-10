@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://galagala0.github.io/"/>
-  <updated>2020-02-07T13:35:53.244Z</updated>
+  <updated>2020-02-10T10:35:37.828Z</updated>
   <id>https://galagala0.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>618（Div.2）Codeforces Round</title>
+    <link href="https://galagala0.github.io/2020/02/10/Codeforces-Round-618-Div-2/"/>
+    <id>https://galagala0.github.io/2020/02/10/Codeforces-Round-618-Div-2/</id>
+    <published>2020-02-10T10:06:40.000Z</published>
+    <updated>2020-02-10T10:35:37.828Z</updated>
+    
+    <summary type="html">
+    
+      cswl
+    
+    </summary>
+    
+      <category term="补题" scheme="https://galagala0.github.io/categories/%E8%A1%A5%E9%A2%98/"/>
+    
+    
+      <category term="math" scheme="https://galagala0.github.io/tags/math/"/>
+    
+  </entry>
   
   <entry>
     <title>板子</title>
