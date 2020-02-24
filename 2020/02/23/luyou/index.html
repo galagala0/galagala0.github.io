@@ -357,22 +357,18 @@
         
         <div class="entry-content">
           <h1 id="第一章-数据通信网络基础"><a href="#第一章-数据通信网络基础" class="headerlink" title="第一章  数据通信网络基础"></a>第一章  数据通信网络基础</h1><h2 id="1、数据通信基础"><a href="#1、数据通信基础" class="headerlink" title="1、数据通信基础"></a>1、数据通信基础</h2><p>数据通信系统模型：<br><img src="//galagala0.github.io/2020/02/23/luyou/1.jpg" alt></p>
-<p>数据是在网络中存储、处理和传输的二进制编码</p>
-<p>信号是数据的电子或电磁编码。信号可分为模拟信号和数字信号</p>
-<p>信道是信号在通信系统中传输的通道<br>在一条物理信道上，可以建立多条逻辑信道，而每一条逻辑信道，只允许一路信号通过。</p>
+<p>数据是在网络中存储、处理和传输的二进制编码<br>信号是数据的电子或电磁编码。信号可分为模拟信号和数字信号<br>信道是信号在通信系统中传输的通道<br>在一条物理信道上，可以建立多条逻辑信道，而每一条逻辑信道，只允许一路信号通过。</p>
 <h2 id="2、数据的交换方式"><a href="#2、数据的交换方式" class="headerlink" title="2、数据的交换方式"></a>2、数据的交换方式</h2><p>交换是采用交换机或者节点机等交换系统，通过路由选择奇数技术在需要进行通信的双方之间建立物理的或逻辑的连接，形成一条通路，实现通信双方的信息传输和交换的一种技术。</p>
 <h3 id="交换的三种方式："><a href="#交换的三种方式：" class="headerlink" title="交换的三种方式："></a>交换的三种方式：</h3><p>电路交换：电话等实时系统<br>报文交换：电报、电子邮件等非实时系统<br>分组交换：计算机间互联通信</p>
 <p>电路交换：指两台计算机或者终端在相互通信时使用同一条实际的物理链路，通信中自始至终使用该链路进行信息传输，且不允许其他计算机或终端同时共享该电路。<br>&amp;优点：<br>1、信息传输延迟时间小，固定不变<br>2、交换机在处理方面的开销小传输效率高<br>3、可在用户间提供“透明”的传输<br>&amp;缺点：<br>1、电路接续时延长，短报文通信效率低<br>2、电路资源被通信双方独占，电路利用率低</p>
 <p>报文交换：“存储–转发”，没有建立连接的过程；中间节点根据网络的实际情况等来选择路由。<br>&amp;优点：<br>1、没有呼损<br>2、易实现不同类型用户之间的通信<br>3、线路利用率高</p>
 <p>分组交换：将报文分割成若干个一定长度（等长）的分组，每个分组加上交换时所需的地址信息、差错校验信息，按规定格式构成数据单元。以分组为单位进行存储转发，在接收端再将各分组重新组装成一个完整的报文。每个数据分组经过的路径可能不同，到达时可能失序，甚至有的数据报可能会丢失。<br>&amp;优点 ：<br>1、分组自由选择传输途径，不会造成通信中断<br>2、信道的容量和吞吐量较高<br>3、能满足通信实时性要求</p>
-<h3 id="数据通信的三种方式"><a href="#数据通信的三种方式" class="headerlink" title="数据通信的三种方式"></a>数据通信的三种方式</h3><p>单工通信：</p>
-<p>单工指的是通信信道是单向信道，任何时候都不能改变信号的传送方向。<br><img src="//galagala0.github.io/2020/02/23/luyou/2.jpg" alt="img"><br>数据信号仅沿一个方向传输，发送方只能发送不能接收，接收方只能接收不能发送。（广播电视）</p>
+<h3 id="数据通信的三种方式"><a href="#数据通信的三种方式" class="headerlink" title="数据通信的三种方式"></a>数据通信的三种方式</h3><p>单工通信：<br>单工指的是通信信道是单向信道，任何时候都不能改变信号的传送方向。<br><img src="//galagala0.github.io/2020/02/23/luyou/2.jpg" alt="img"><br>数据信号仅沿一个方向传输，发送方只能发送不能接收，接收方只能接收不能发送。（广播电视）</p>
 <p>半双工通信：<br><img src="//galagala0.github.io/2020/02/23/luyou/3.jpg" alt="img"><br>半双工通信中信号可以沿着两个方向传送，但同一时刻只限于一个方向传输，即两个方向的传输只能交替进行。（对讲机）</p>
 <p>全双工通信：<br><img src="//galagala0.github.io/2020/02/23/luyou/4.jpg" alt="img"><br>全双工通信是指同时可以作双向的通信，通信的一方在发送信息的同时也能接收信息。（计算机间通信）</p>
 <h1 id="第二章：网络基础："><a href="#第二章：网络基础：" class="headerlink" title="第二章：网络基础："></a>第二章：网络基础：</h1><p>计算机网络：将分布在不同地理位置的具有独立工作能力的计算机、终端及其附属设备用通信设备和通信线路连接起来，并配置网络软件，以实现资源共享的系统。</p>
 <h2 id="计算机网络结构："><a href="#计算机网络结构：" class="headerlink" title="计算机网络结构："></a>计算机网络结构：</h2><p><img src="//galagala0.github.io/2020/02/23/luyou/5.jpg" alt="img"></p>
-<p>通信子网：由通信控制处理机、通信线路和其他网络通信设备组成。</p>
-<p>资源子网：由主机系统、终端、终端控制器、连网外设、各种软件资源与信息资源组成。</p>
+<p>通信子网：由通信控制处理机、通信线路和其他网络通信设备组成。<br>资源子网：由主机系统、终端、终端控制器、连网外设、各种软件资源与信息资源组成。</p>
 <h2 id="计算机网络分类："><a href="#计算机网络分类：" class="headerlink" title="计算机网络分类："></a>计算机网络分类：</h2><p>按覆盖范围分类：局域网、城域网、广域网</p>
 <p>局域网（LAN）：指在一个较小的范围内的计算机、终端和外部设备通过高速通信线路相连接形成的计算机网络。<br>特点：有限的地理范围、通常具有较好的性能、易于建立、管理和维护。<br><img src="//galagala0.github.io/2020/02/23/luyou/6.jpg" alt></p>
 <p>城域网（MAN）：全称城市区域网络，覆盖范围约为几千米到几十千米，是介于局域网和广域网之间的一种高速网络。<br>特点：用于局域网之间的连接、实现大量用户间的数据、语音、图形与食品等多种信息的传递。<br><img src="//galagala0.github.io/2020/02/23/luyou/7.jpg" alt="img"></p>
@@ -393,10 +389,10 @@
 <p>六、 表示层：关心的是所传输的数据的表现方式，它的语法和语义，数据压缩解压、加密解密<br>表示层提供一个可供应用层选择的服务的集合，使得应用层可以根据这些服务功能解释数据的含义，它如同应用程序和网络之间的翻译官<br><img src="//galagala0.github.io/2020/02/23/luyou/16.jpg" alt="img"></p>
 <p>七、 应用层：为应用软件提供接口，使应用程序能够使用网络服务<br>常见应用层协议：http（80）、ftp（20/21）、smtp（25）、pop（110）、telnet（23）、dns（53）<br>面向用户</p>
 <p>OSI参考模型特点:<br>1、 OSI模型每层都有自己的功能集；<br>2、 层与层之间互相独立又相互依靠；<br>3、 上层依赖于下层，下层为上层提供服务。</p>
-<p>TCP协议栈：<br>TCP/IP协议简介：TCP/IP主要由传输控制协议(TCP)和网际协议(IP)而得名，它是Internet上所有网络和主机之间进行交流所使用的共同“语言”，是Internet上使用的一组完整的标准网络连接协议。<br><img src="//galagala0.github.io/2020/02/23/luyou/17.jpg" alt="img"></p>
+<h2 id="TCP协议栈："><a href="#TCP协议栈：" class="headerlink" title="TCP协议栈："></a>TCP协议栈：</h2><p>TCP/IP协议简介：TCP/IP主要由传输控制协议(TCP)和网际协议(IP)而得名，它是Internet上所有网络和主机之间进行交流所使用的共同“语言”，是Internet上使用的一组完整的标准网络连接协议。<br><img src="//galagala0.github.io/2020/02/23/luyou/17.jpg" alt="img"></p>
 <p>与OSI参考模型不同，TCP/IP模型更侧重于通信的实现方式。</p>
 <p>TCP/IP与OSI对应关系：<br><img src="//galagala0.github.io/2020/02/23/luyou/18.jpg" alt="img"></p>
-<h2 id="TCP-IP模型："><a href="#TCP-IP模型：" class="headerlink" title="TCP/IP模型："></a>TCP/IP模型：</h2><p>物理层：在媒介上传输比特流；提供机械的和电气的规约<br>协议：ARP、Ethernet、Fast Eth</p>
+<h3 id="TCP-IP模型："><a href="#TCP-IP模型：" class="headerlink" title="TCP/IP模型："></a>TCP/IP模型：</h3><p>物理层：在媒介上传输比特流；提供机械的和电气的规约<br>协议：ARP、Ethernet、Fast Eth</p>
 <p>数据链路层：将分组数据封装成帧；在数据链路上实现数据的点到点、或点到多点方式的直接通信；差错检测</p>
 <p>网络层：定义IP地址；路由选择；实现数据从源到目的地的转发过程<br>协议：ICMP、Routing Protocol、IP</p>
 <p>传输层：建立、维护和取消一次端到端的数据传输过程，控制传输节奏的快慢，调整数据的排序等等<br>协议：TCP、UDP</p>
@@ -835,10 +831,10 @@ $(document).ready(function() {
     })
   });
 </script>
-  <!-- 樱花特效
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/galagala0/cdn@1.2.5/js/yinghua.js"></script> -->
-<!-- 雪花特效 -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/galagala0/cdn@1.3.3/js/snow.js"></script>
+  <!-- 樱花特效-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/galagala0/cdn@1.2.5/js/yinghua.js"></script> 
+<!-- 雪花特效 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/galagala0/cdn@1.3.3/js/snow.js"></script>-->
 
   <!-- 鼠标特效 -->
   <!--
