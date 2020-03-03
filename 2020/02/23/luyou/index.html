@@ -415,7 +415,7 @@
 <p>子网划分的方法：<br>借位：从主机最高位开始借位变为新的子网位，剩余部分仍为主机位</p>
 <p>1 按照网络数量划分<br>2^n&gt;=N   n代表子网位数，N代表网络数量</p>
 <p>2 按照主机数量划分<br>2^n-2&gt;=N    n代表主机所占位数，N代表主机数量<br>-2是指减掉主机位全0和全1的两种情况</p>
-<h1 id="子网划分例题"><a href="#子网划分例题" class="headerlink" title="子网划分例题"></a>子网划分例题</h1><p>1、若网络中IP地址为131.55.223.75的主机的子网掩码为255.255.224.0，IP地址为131.55.213.73的主机的子网掩码为255.255.224.0，那么这两台主机属于同一子网吗？</p>
+<h2 id="子网划分例题"><a href="#子网划分例题" class="headerlink" title="子网划分例题"></a>子网划分例题</h2><p>1、若网络中IP地址为131.55.223.75的主机的子网掩码为255.255.224.0，IP地址为131.55.213.73的主机的子网掩码为255.255.224.0，那么这两台主机属于同一子网吗？</p>
 <p> 属于<br>因为两个IP地址均为B类IP地址，又<br>IP131.55.223.75转化为二进制为：10000011.00110111.11011111.01001011<br>IP131.55.213.73转化为二进制为：10000011.00110111.11010101.01001001<br>子网掩码转化为二进制为：11111111.11111111.11100000.00000000<br>网络位相同，故属于同一子网</p>
 <p>2、168.1.88.10是哪类IP地址？它的默认子网掩码是多少？如果对其进行子网划分，子网划分是255.255.240.0，请问有多少个子网？每个子网有多少个主机地址可以用？</p>
 <p>168属于128~191故为B类IP地址<br>默认子网掩码为：255.255.0.0<br>240转化为二进制为：11110000，即子网数=2^4=16<br>主机位共12位，即每个子网可拥有的主机地址数为2^12-2=4094</p>
@@ -423,6 +423,26 @@
 <p>C类网络默认子网掩码为255.255.255.0<br>根据需要子网数划分：<br>2^n&gt;=N,求得网络位n=5</p>
 <p>根据所需主机数划分：<br>2^n-2&gt;=N,求得主机位n=3</p>
 <p>即子网掩码为255.255.255.248</p>
+<h1 id="VRP-通用路由平台"><a href="#VRP-通用路由平台" class="headerlink" title="VRP 通用路由平台"></a>VRP 通用路由平台</h1><p>运行在华为数通产品上的操作系统，以IP业务为核心，采用组件化的体系结构，在实现丰富功能及特性的同时，提供基于应用的可裁剪能力和可扩展能力。</p>
+<h3 id="命令视图"><a href="#命令视图" class="headerlink" title="命令视图"></a>命令视图</h3><p><img src="//galagala0.github.io/2020/02/23/luyou/31.png" alt></p>
+<p><img src="//galagala0.github.io/2020/02/23/luyou/32.png" alt></p>
+<p>qiut返回上一视图，return直接返回用户视图</p>
+<h3 id="常见命令"><a href="#常见命令" class="headerlink" title="常见命令"></a>常见命令</h3><ul>
+<li>修改设备名称<br>system-view<br>sysname (新名称)</li>
+<li><p>配置设备的接口<br>system-view<br>interface GigabitEthernet 0/0/0  //进入千兆口 GE0/0/0<br>ip address 10.1.12.1 24  //为接口配置IP与子网掩码<br>undo shutdown  //将端口取消关闭（默认即取消关闭）<br>shutdown  //将端口关闭</p>
+</li>
+<li><p>查看当前配置（在任何视图下均可使用）<br>[Huawei] display current-configuration    可简写为: display cu</p>
+</li>
+<li><p>查看已保存的配置（可在任何视图下进行）<br>[Huawei] display saved-configuration    可简写为:display sa</p>
+</li>
+<li><p>保存配置（在用户视图下）<br>&lt;Huawei> save<br>注意：为了保证所做的配置在设备重启后不丢失，完成配置后，必须使用save命令将配置信息写入设备的硬盘。</p>
+</li>
+<li><p>清除已保存的配置（在用户视图下）<br>&lt;Huawei> reset saved-configuratio</p>
+</li>
+<li>重启设备（在用户视图下）<br>&lt;Huawei> reboot</li>
+</ul>
+<h3 id="语法错误提示"><a href="#语法错误提示" class="headerlink" title="语法错误提示"></a>语法错误提示</h3><p><img src="//galagala0.github.io/2020/02/23/luyou/33.png" alt></p>
+<h3 id="操作快捷键"><a href="#操作快捷键" class="headerlink" title="操作快捷键"></a>操作快捷键</h3><p><img src="//galagala0.github.io/2020/02/23/luyou/34.png" alt></p>
 
         </div>
         <!-- .entry-content -->
