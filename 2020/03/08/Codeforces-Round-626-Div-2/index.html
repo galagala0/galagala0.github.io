@@ -361,21 +361,17 @@
 <h2 id="B"><a href="#B" class="headerlink" title="B"></a>B</h2><h4 id="题目大意："><a href="#题目大意：" class="headerlink" title="题目大意："></a>题目大意：</h4><p>给出n,m,k分别为矩阵的行数、列数、所要求的和<br>求出不包含零且子矩阵面积为k的数量。</p>
 <h4 id="Examples："><a href="#Examples：" class="headerlink" title="Examples："></a>Examples：</h4><ul>
 <li><p>input</p>
-<pre><code>3 3 2
-1 0 1
-1 1 1
-</code></pre></li>
+<p>3 3 2<br>1 0 1<br>1 1 1</p>
+</li>
 <li><p>output</p>
-<pre><code>4
-</code></pre></li>
+<p>4</p>
+</li>
 <li><p>input</p>
-<pre><code>3 5 4
-1 1 1
-1 1 1 1 1
-</code></pre></li>
+<p>3 5 4<br>1 1 1<br>1 1 1 1 1</p>
+</li>
 <li><p>output</p>
-<pre><code>14
-</code></pre></li>
+<p>14</p>
+</li>
 </ul>
 <p><img src="//galagala0.github.io/2020/03/08/Codeforces-Round-626-Div-2/1.png" alt></p>
 <h4 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h4><p>分解k，求出k的所有因子，分别求出n、m中连续1的长度包含的k的因子。<br>最终两结果相乘之和即为答案。<br>可能说的不是很详细，还是看代码吧，代码容易懂一些。</p>
